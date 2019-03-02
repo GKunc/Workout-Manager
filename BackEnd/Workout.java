@@ -16,6 +16,8 @@ public class Workout { // change to abstract
     private Duration duration; // hh:mm:ss
     private String feeling;
     private String description;
+    private Details details;// todo add fields and methods to store series and reps
+
 
     public Workout() {
         date = new Date();
@@ -51,6 +53,7 @@ public class Workout { // change to abstract
 
         writer.close();
     }
+
 
     public static void main(String args[]) throws IOException {
         String file_path = "./workout_file.txt";
