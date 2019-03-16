@@ -35,6 +35,7 @@ public class Duration {
         return seconds;
     }
 
+    @Override
     public String toString() {
         String h, m, s;
         if(getHours() < 10)  h = "0" + getHours();
