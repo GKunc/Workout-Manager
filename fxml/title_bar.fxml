@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+<HBox alignment="CENTER_LEFT" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <Circle fill="#f50000" radius="6.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0">
+         <HBox.margin>
+            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+         </HBox.margin>
+      </Circle>
+      <Circle fill="#ffe11f" radius="6.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0">
+         <HBox.margin>
+            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+         </HBox.margin>
+      </Circle>
+      <Circle fill="#29c634" radius="6.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0">
+         <HBox.margin>
+            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+         </HBox.margin>
+      </Circle>
+   </children>
+</HBox>
